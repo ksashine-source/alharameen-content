@@ -1,0 +1,779 @@
+{
+ "content_version": "2.0.0+c20260929",
+ "generated": "2026-09-29",
+ "languages": [
+  "ar",
+  "en",
+  "fr",
+  "id",
+  "ms",
+  "fa",
+  "ru",
+  "so",
+  "tr",
+  "ur"
+ ],
+ "cdn_base_default": "https://api.al-harameen.app",
+ "cdn_path_prefix": "/content/v2/",
+ "totals": {
+  "bundle_bytes": 4238887,
+  "cdn_bytes": 15188705,
+  "bundle_budget_bytes": 5242880
+ },
+ "validation": {
+  "passed": 92,
+  "failed": 0
+ },
+ "files": [
+  {
+   "file": "CONTENT_REVIEW_NEEDED.csv",
+   "bytes": 19196,
+   "sha256": "7307c991ae814d7faaf7d561ffb83a3732e03bda4dc05173d477ad49d3df6151",
+   "delivery": "doc"
+  },
+  {
+   "file": "CONTENT_VALIDATION.txt",
+   "bytes": 4170,
+   "sha256": "aa2d0eaf464f71f4dd0ab47c4c5f7ac6b13c769ad6eae5f07b890d26ebb9a210",
+   "delivery": "doc"
+  },
+  {
+   "file": "LICENSES_AND_SOURCES.md",
+   "bytes": 9954,
+   "sha256": "a2c54563d5544914ab10173fc8c528fef569d967a7f01bb215e169c012ade7a4",
+   "delivery": "doc"
+  },
+  {
+   "file": "SCHEMA.md",
+   "bytes": 16122,
+   "sha256": "3ee9b5cb8ed1649c09355cef790c055a131bf68d2d3a2b403aca36003d03e888",
+   "delivery": "doc"
+  },
+  {
+   "file": "SCHEMA.zh-CN.md",
+   "bytes": 15382,
+   "sha256": "eb44548f7ea8fa61d0ad12b337d0f5a05ca448e2f0e14c09894ab77c3733f9eb",
+   "delivery": "doc"
+  },
+  {
+   "file": "UMMALQURA_CROSSCHECK.md",
+   "bytes": 2864,
+   "sha256": "5da4275d26ce50d1e60fd9e24a24b1a6ac04a66bff89a244e9604e1a21600997",
+   "delivery": "doc"
+  },
+  {
+   "file": "bundle/adhkar.json",
+   "bytes": 222524,
+   "sha256": "e49671d3cfc4d1150b9cfb050eb81a47a57fe1c058959254d11535acbb4fcc07",
+   "delivery": "bundle",
+   "items": 88,
+   "categories": 6,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F08"
+  },
+  {
+   "file": "bundle/asmaa.json",
+   "bytes": 73724,
+   "sha256": "89c834148855ece0119dcc2422bcae7d0fe0ea7699c930d505284e1e25bfcb38",
+   "delivery": "bundle",
+   "items": 99,
+   "preface": 1,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F19"
+  },
+  {
+   "file": "bundle/cities.json",
+   "bytes": 1243568,
+   "sha256": "95dea97283208a2b2d75f3030520187852b802c68d26af799510cff26d4a4add",
+   "delivery": "bundle",
+   "items": 10000,
+   "countries": 235,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "coordinate_corrections": 87,
+   "feature_id": "F01"
+  },
+  {
+   "file": "bundle/daily_content.json",
+   "bytes": 16600,
+   "sha256": "31170d5e6f522b78f68c0d6b97fdc2de21a293167342d5e5c2d424e58eea1156",
+   "delivery": "bundle",
+   "items": 20,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F21"
+  },
+  {
+   "file": "bundle/duas.json",
+   "bytes": 74793,
+   "sha256": "bdd7d56a1f6fc4b6cdb5f4551034b479d69c607c3d949b1e9b38296aa9a07e01",
+   "delivery": "bundle",
+   "items": 21,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F21"
+  },
+  {
+   "file": "bundle/hajj_umrah.json",
+   "bytes": 19599,
+   "sha256": "3e8da02f3d86d93770100d5687ec1ec7c9c4a8ba9e1218157a8c96715552eb59",
+   "delivery": "bundle",
+   "items": 22,
+   "miqat": 6,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F18",
+   "content_version": "2.0.1+c20260930"
+  },
+  {
+   "file": "bundle/hisn.json",
+   "bytes": 271376,
+   "sha256": "bb506303c960558a13c2b1d4aae177e6be1f3660fffaae788af884a3dad0ce4f",
+   "delivery": "bundle",
+   "items": 132,
+   "chapters": 26,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/en.json",
+   "bytes": 75884,
+   "sha256": "ca0a477fcc21f10e6fa5fe0116b9914d334222646185128a5d26832411ad003c",
+   "delivery": "bundle",
+   "items": 132,
+   "missing": 0,
+   "languages": [
+    "en"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/fa.json",
+   "bytes": 115275,
+   "sha256": "6a91277ed29db59426605087219ee14bdd27458156a83caccd1ce4751ede577b",
+   "delivery": "bundle",
+   "items": 132,
+   "missing": 0,
+   "languages": [
+    "fa"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/fr.json",
+   "bytes": 140020,
+   "sha256": "9c4b6ee426a95a4d4c6362f50a40e09f54c8c05771768ff0a59b7c4b4a44e192",
+   "delivery": "bundle",
+   "items": 129,
+   "missing": 3,
+   "languages": [
+    "fr"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/id.json",
+   "bytes": 71694,
+   "sha256": "b7383e02e70a5e246e9be33e1bcd8490e13442540b505a2d8c0b691cbcaef0b0",
+   "delivery": "bundle",
+   "items": 132,
+   "missing": 0,
+   "languages": [
+    "id"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/ms.json",
+   "bytes": 108076,
+   "sha256": "9e32663ebc1d17a189850707f080d19db65bfe982cfcb79366af562303753b3d",
+   "delivery": "bundle",
+   "items": 132,
+   "missing": 0,
+   "languages": [
+    "ms"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/ru.json",
+   "bytes": 134439,
+   "sha256": "2f959655c427d947d22478f42b16133ae6e5154ec193aa5c1c3941d198f636f8",
+   "delivery": "bundle",
+   "items": 132,
+   "missing": 0,
+   "languages": [
+    "ru"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/so.json",
+   "bytes": 84541,
+   "sha256": "a0a1c000f59f8f18b811b39489674179bef72f847eca5d1d25cae7ae5a132b7a",
+   "delivery": "bundle",
+   "items": 132,
+   "missing": 0,
+   "languages": [
+    "so"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/tr.json",
+   "bytes": 86346,
+   "sha256": "69990470327cc56f0655bb76ffb342829057db3457ed3c8bccb3913f1c9a7748",
+   "delivery": "bundle",
+   "items": 130,
+   "missing": 2,
+   "languages": [
+    "tr"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/hisn_tr/ur.json",
+   "bytes": 11041,
+   "sha256": "34b58e0d8cd7925d37177a70a0832aacb9c7ac24529ca6aa9c80035ab2870cf4",
+   "delivery": "bundle",
+   "items": 28,
+   "missing": 104,
+   "languages": [
+    "ur"
+   ],
+   "feature_id": "F09"
+  },
+  {
+   "file": "bundle/nawawi.json",
+   "bytes": 54054,
+   "sha256": "b66072fd879015e90eb2190292f20009c4bab39b1e345c15d04f87740e7d843e",
+   "delivery": "bundle",
+   "items": 42,
+   "languages": [
+    "ar",
+    "en"
+   ],
+   "feature_id": "F20"
+  },
+  {
+   "file": "bundle/occasions.json",
+   "bytes": 5594,
+   "sha256": "53a408b5f8b45423aabc47e485a917ca9a710c08538435d221a3bd34d3d8543c",
+   "delivery": "bundle",
+   "items": 10,
+   "fasting_rules": 6,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F06"
+  },
+  {
+   "file": "bundle/quran_uthmani.json",
+   "bytes": 1377366,
+   "sha256": "d440aaf31e9215a77a31a77f977c5d10fc7727164dfa4cc4a038061686aff816",
+   "delivery": "bundle",
+   "items": 6236,
+   "surahs": 114,
+   "languages": [
+    "ar"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "bundle/surah_index.json",
+   "bytes": 34944,
+   "sha256": "92ef5660ba84103ecb9b9decfce50af43534db8eda5a352f22a7a4c0e30be76e",
+   "delivery": "bundle",
+   "items": 114,
+   "juz": 30,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F15"
+  },
+  {
+   "file": "bundle/tasbih_presets.json",
+   "bytes": 12806,
+   "sha256": "e871ad8e58cf056b617c830d15c4ec3b61165257e4c59bedf0f2a31ce5aeb581",
+   "delivery": "bundle",
+   "items": 13,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F10"
+  },
+  {
+   "file": "bundle/ummalqura.json",
+   "bytes": 4623,
+   "sha256": "562c83b326bb469d55f6132b1d1928dbe98aa77ab7d1b2e61b52cb8d0e63622d",
+   "delivery": "bundle",
+   "items": 1572,
+   "languages": [
+    "ar",
+    "en",
+    "fr",
+    "id",
+    "ms",
+    "fa",
+    "ru",
+    "so",
+    "tr",
+    "ur"
+   ],
+   "feature_id": "F06"
+  },
+  {
+   "file": "cdn/quran/reciters.json",
+   "bytes": 6627,
+   "sha256": "397ab00cf2357f2fbbb846d556e456e32b65bdaccf9d826f2b8f8bd5ffee77a5",
+   "delivery": "cdn",
+   "items": 18,
+   "languages": [
+    "ar",
+    "en",
+    "ru"
+   ],
+   "feature_id": "F16",
+   "content_version": "2.0.1+c20260930"
+  },
+  {
+   "file": "cdn/quran/tafsir/ar_muyassar.json",
+   "bytes": 1920930,
+   "sha256": "f820b3de1fdf67ba61785b810e1acead0d8b595e36faf25c1e1f2cb35a50796f",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "ar"
+   ],
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/timing/afasy.json",
+   "bytes": 103071,
+   "sha256": "9646f263690dcc92222b28166afa20e001e7c2721514e0904edeec694ee8d474",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/ajmi.json",
+   "bytes": 101975,
+   "sha256": "70461ef8cd22a6ead5e93b2050aeaf8645d68ffc1d4d4ab84d99a96629436b27",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/alijaber.json",
+   "bytes": 101941,
+   "sha256": "0f8c69e7467386b3b95b3912ed2df0a93003f456160640abd38b075189f543b5",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/ayyoub.json",
+   "bytes": 103563,
+   "sha256": "72ebca589dad1fdee9db3601f6714fa33fcf2ad56f807e57e76e6437db262b57",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/basfar.json",
+   "bytes": 96844,
+   "sha256": "4acf0fb7364875579b932ab401adcb41724faf03964815b6e38bcda39f37967c",
+   "delivery": "cdn",
+   "items": 5950,
+   "surahs": 113,
+   "missing_surahs": [
+    2
+   ],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/basit.json",
+   "bytes": 102918,
+   "sha256": "8c317217e6764b8b6bbf0c22d7f36e746f58a4ae3490100aafae8df7a7a6162a",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/dosari.json",
+   "bytes": 101744,
+   "sha256": "3896794d203b0abbedce10c1e1a9870b320a160f5d332e9e805faaabae28170a",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/faresabbad.json",
+   "bytes": 101588,
+   "sha256": "3a745e02f6447753b83b20caa2357f2345be56e006366b9b435ff2856e89f727",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/ghamdi.json",
+   "bytes": 101850,
+   "sha256": "eb7b122b7132d979ac317a0326c7ab85d95a038ced23f94cd498706f05bc5ed4",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/hudhaifi.json",
+   "bytes": 102140,
+   "sha256": "373b8599ac8ac45e01f6d46e36e40ea5a6cb509159d5a24c2487131f57eef960",
+   "delivery": "cdn",
+   "items": 6229,
+   "surahs": 113,
+   "missing_surahs": [
+    1
+   ],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/husary.json",
+   "bytes": 104934,
+   "sha256": "f0f39007dbc54161e75763ad25236bf5871c394d921daff25925a021782eeaa1",
+   "delivery": "cdn",
+   "items": 6229,
+   "surahs": 113,
+   "missing_surahs": [
+    1
+   ],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/juhany.json",
+   "bytes": 97400,
+   "sha256": "241bfdd6b7121ee788dd69803fae6c9188507f54defdf48e2c2051386e1b4087",
+   "delivery": "cdn",
+   "items": 6060,
+   "surahs": 113,
+   "missing_surahs": [
+    4
+   ],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/maher.json",
+   "bytes": 103806,
+   "sha256": "e0919ff3de60e0db99b1ab81c7908b8e3e170158bc6e3d24831f4066d145dda7",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/minshawi.json",
+   "bytes": 100460,
+   "sha256": "59949cc1ba70829693bbc2955b2f603f3890df3047059c1dbbad8dd7888dea48",
+   "delivery": "cdn",
+   "items": 6107,
+   "surahs": 113,
+   "missing_surahs": [
+    9
+   ],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/qatami.json",
+   "bytes": 102007,
+   "sha256": "0791e9329dd09c1df99494adc8f053d2dedc26e45c3a8857c5c780ba34be2c0d",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/shuraim.json",
+   "bytes": 95498,
+   "sha256": "ba8acf851a88e0e0989d1c9784babccc1a5fda03c4ecdcac4c89d8fc88b8a644",
+   "delivery": "cdn",
+   "items": 5969,
+   "surahs": 110,
+   "missing_surahs": [
+    9,
+    12,
+    65,
+    91
+   ],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/sudais.json",
+   "bytes": 100691,
+   "sha256": "063bda468e19203eecf63a241913b430b93ed38219bf5b95e4107b4cc4cc4f22",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/timing/tablaway.json",
+   "bytes": 103007,
+   "sha256": "a722f59f603054a68b5a62b32d72cc3235e92f97efbf40b40f41e9c4769baa82",
+   "delivery": "cdn",
+   "items": 6236,
+   "surahs": 114,
+   "missing_surahs": [],
+   "languages": [],
+   "feature_id": "F16"
+  },
+  {
+   "file": "cdn/quran/translations/en.json",
+   "bytes": 838583,
+   "sha256": "53fe1dba21a137ad2395a8ce38bfd580966f742fef83c80e105871ac7075c223",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "en"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/fa.json",
+   "bytes": 1585994,
+   "sha256": "3b55cce9d8dfa585c5a0b22c1edd58ea7222d1faf96e298cb2897fd9469ee352",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "fa"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/fr.json",
+   "bytes": 1015176,
+   "sha256": "2455cee62330326f67e83d7352855ffd5ffadd4a2f15ec350efcb2ac623c6bd4",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "fr"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/id.json",
+   "bytes": 1099332,
+   "sha256": "5ae3872693d684ddc58bc6701d7df76065272278a576badc661051891e61d829",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "id"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/ms.json",
+   "bytes": 1473241,
+   "sha256": "5eeb4c74d799a5af2ed9f36c6875c3396b3b324e80cb3657735b2fc01456e3b8",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "ms"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/ru.json",
+   "bytes": 2336110,
+   "sha256": "937706313cd8cb15b4c1cf10f8f5b59389fa4da548f93f9b517bc6f51af716bf",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "ru"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/so.json",
+   "bytes": 756941,
+   "sha256": "d4bcb02e26d573c0fc05f9f69910852709782995b56d9744f6ea0f8f39ae153c",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "so"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/tr.json",
+   "bytes": 894338,
+   "sha256": "fb76cd83eb1675597c8fbaa806e1995c1b62ef63eac68c63bc538fe56b90e983",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "tr"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "cdn/quran/translations/ur.json",
+   "bytes": 1435996,
+   "sha256": "a9ce24b0796ff7e1dac75e335aa09a194fc48c2385d6e02a819e0da96066a8a5",
+   "delivery": "cdn",
+   "items": 6236,
+   "languages": [
+    "ur"
+   ],
+   "empty": 0,
+   "feature_id": "F15"
+  },
+  {
+   "file": "tools/validate_kit.py",
+   "bytes": 4134,
+   "sha256": "5815d9ebdd74ec55d41d67b3c2afb01d9988abab8f14b2847c6736030eb206bb",
+   "delivery": "doc"
+  }
+ ]
+}
