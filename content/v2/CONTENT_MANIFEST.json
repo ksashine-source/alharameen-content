@@ -16,7 +16,7 @@
  "cdn_base_default": "https://api.al-harameen.app",
  "cdn_path_prefix": "/content/v2/",
  "totals": {
-  "bundle_bytes": 19427755,
+  "bundle_bytes": 19427754,
   "cdn_bytes": 0,
   "bundle_budget_bytes": 20971520
  },
@@ -105,8 +105,8 @@
   },
   {
    "file": "bundle/cities.json",
-   "bytes": 1243731,
-   "sha256": "bf885d25d76633f3af5e5f2d932f86fd07d029a64fbbc63d063768687bbb01d4",
+   "bytes": 1243730,
+   "sha256": "a71d7d97b7336ad145eb7e402b7ba21062de10de6b270ccbd777c75d4f4b257b",
    "delivery": "bundle",
    "items": 10000,
    "countries": 235,
@@ -124,7 +124,7 @@
    ],
    "coordinate_corrections": 87,
    "feature_id": "F01",
-   "content_version": "2.0.3+c20261001"
+   "content_version": "2.0.4+c20261027"
   },
   {
    "file": "bundle/daily_content.json",
