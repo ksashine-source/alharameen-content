@@ -1,6 +1,6 @@
 {
  "generated": "2026-09-29",
- "cdn_base_default": "https://api.al-harameen.app",
+ "cdn_base_default": "https://www.al-harameen.com/cdn",
  "cdn_path_prefix": "/audio/v2/",
  "rules": {
   "speech": "AAC-LC mono 32 kbps 22.05 kHz .m4a",

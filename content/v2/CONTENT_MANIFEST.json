@@ -13,7 +13,7 @@
   "tr",
   "ur"
  ],
- "cdn_base_default": "https://api.al-harameen.app",
+ "cdn_base_default": "https://www.al-harameen.com/cdn",
  "cdn_path_prefix": "/content/v2/",
  "totals": {
   "bundle_bytes": 19427754,
